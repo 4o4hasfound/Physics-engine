@@ -1,0 +1,20 @@
+﻿  RectCollider.cpp
+D:\Program\C++\Pulsar\include\Math\Vector4.hpp(214,1): warning C4624: 'Pulsar::vec<4,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<4,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector3.hpp(155,1): warning C4624: 'Pulsar::vec<3,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<3,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector2.hpp(144,1): warning C4624: 'Pulsar::vec<2,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<2,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector1.hpp(103,1): warning C4624: 'Pulsar::vec<1,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<1,std::ostream>' being compiled
+  SphereCollider.cpp
+D:\Program\C++\Pulsar\include\Math\Vector4.hpp(214,1): warning C4624: 'Pulsar::vec<4,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<4,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector3.hpp(155,1): warning C4624: 'Pulsar::vec<3,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<3,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector2.hpp(144,1): warning C4624: 'Pulsar::vec<2,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<2,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector1.hpp(103,1): warning C4624: 'Pulsar::vec<1,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<1,std::ostream>' being compiled
+  Generating Code...
+  Pulsar.vcxproj -> D:\Program\C++\Pulsar\x64\Debug\Pulsar.exe

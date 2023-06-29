@@ -1,0 +1,18 @@
+﻿  Demo.cpp
+D:\Program\C++\Pulsar\include\Math\Vector4.hpp(214,1): warning C4624: 'Pulsar::vec<4,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<4,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector3.hpp(155,1): warning C4624: 'Pulsar::vec<3,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<3,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector2.hpp(144,1): warning C4624: 'Pulsar::vec<2,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<2,std::ostream>' being compiled
+D:\Program\C++\Pulsar\include\Math\Vector1.hpp(103,1): warning C4624: 'Pulsar::vec<1,std::ostream>': destructor was implicitly defined as deleted
+D:\Program\C++\Pulsar\include\Debug\Print.hpp(10): message : see reference to class template instantiation 'Pulsar::vec<1,std::ostream>' being compiled
+D:\Program\C++\Pulsar\Example\Demo.cpp(65,21): warning C4305: 'argument': truncation from 'double' to 'Pulsar::Decimal'
+D:\Program\C++\Pulsar\Example\Demo.cpp(196,22): warning C4305: 'argument': truncation from 'double' to 'Pulsar::Decimal'
+D:\Program\C++\Pulsar\Example\Demo.cpp(232,17): warning C4244: 'initializing': conversion from 'int' to 'Pulsar::Decimal', possible loss of data
+  Generating code
+  2 of 1082 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pulsar.vcxproj -> D:\Program\C++\Pulsar\x64\Release\Pulsar.exe
