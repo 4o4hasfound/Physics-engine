@@ -1,6 +1,8 @@
 # Pulsar Physics-engine
 ## Description
 This physics engine uses verlet integration to solve the position of each sphere. By using this method, we can simply move one object, and the verlet integration will automatically solve the dynamics for us!
+## Showcase
+https://github.com/4o4hasfound/Physics-engine/assets/138118407/e20aa58b-fc74-49c9-a409-cb23389d2f54
 
 ## Code Example
 ### Basic Usage
