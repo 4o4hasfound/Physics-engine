@@ -165,8 +165,7 @@
     <ClCompile Include="src\Physics\Body.cpp" />
     <ClCompile Include="src\Physics\Link.cpp" />
     <ClCompile Include="src\Physics\PhysicsWorld.cpp" />
-    <ClCompile Include="src\Physics\QuadTree.cpp" />
-    <ClCompile Include="src\Physics\RectCollider.cpp" />
+    <ClCompile Include="src\Physics\ScreenBoarder.cpp" />
     <ClCompile Include="src\Physics\SphereCollider.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -198,8 +197,7 @@
     <ClInclude Include="include\Physics\Constraint.hpp" />
     <ClInclude Include="include\Physics\Link.hpp" />
     <ClInclude Include="include\Physics\PhysicsWorld.hpp" />
-    <ClInclude Include="include\Physics\QuadTree.hpp" />
-    <ClInclude Include="include\Physics\RectCollider.hpp" />
+    <ClInclude Include="include\Physics\ScreenBoarder.hpp" />
     <ClInclude Include="include\Physics\SphereCollider.hpp" />
     <ClInclude Include="include\setup.hpp" />
   </ItemGroup>

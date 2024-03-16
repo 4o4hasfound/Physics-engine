@@ -14,13 +14,13 @@ namespace Pulsar {
 			for (Collider* b : body->m_colliders) {
 				const CollisionPoint result = a->TestCollision(this, body, b);
 				if (result.hasCollide) {
-					if (this->getType() != RidigBody && body->getType() == RidigBody) {
+					if (this->getType() != RigidBody && body->getType() == RigidBody) {
 						body->m_position -= ToDecimal(result.Delta) * result.Normal;
 					}
-					else if (this->getType() == RidigBody && body->getType() != RidigBody) {
+					else if (this->getType() == RigidBody && body->getType() != RigidBody) {
 						this->m_position += ToDecimal(result.Delta) * result.Normal;
 					}
-					else if (this->getType() == RidigBody && body->getType() == RidigBody) {
+					else if (this->getType() == RigidBody && body->getType() == RigidBody) {
 						this->m_position += ToDecimal(0.5 * result.Delta) * result.Normal;
 						body->m_position -= ToDecimal(0.5 * result.Delta) * result.Normal;
 					}

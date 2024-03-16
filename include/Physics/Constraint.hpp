@@ -4,9 +4,15 @@
 #include "setup.hpp"
 
 namespace Pulsar {
+	class Body;
+
 	class Constraint {
 	public:
 		virtual void Apply() = 0;
+	};
+	class UniversalConstraint {
+	public:
+		virtual void Apply(Body* body) = 0;
 	};
 }
 

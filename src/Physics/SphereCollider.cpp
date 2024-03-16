@@ -16,8 +16,6 @@ namespace Pulsar {
 		switch (b->getShape()) {
 		case Sphere:
 			return this->SphereToSphereCollision(a, b, collider);
-		case Rectangle:
-			return this->SphereToRectCollision(a, b, collider);
 		default:
 			return collider->TestCollision(b, a, this);
 		}
@@ -34,11 +32,4 @@ namespace Pulsar {
 		const vec2 Normal = length(normal) ? normalize(normal) : normal;
 		return CollisionPoint{ posA + Normal * radA, posB - Normal * radB, Normal, dist, radA + radB - dist, dist < radA + radB};
 	}
-
-	CollisionPoint SphereCollider::SphereToRectCollision(Body* a, Body* b, const Collider* collider) const {
-		// TODO: Implement Sphere To Rect collision handling
-
-		return CollisionPoint{};
-	}
-
 }

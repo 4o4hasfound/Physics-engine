@@ -63,17 +63,14 @@
     <ClCompile Include="src\Physics\Body.cpp">
       <Filter>來源檔案\Physics</Filter>
     </ClCompile>
-    <ClCompile Include="src\Physics\QuadTree.cpp">
-      <Filter>來源檔案\Physics</Filter>
-    </ClCompile>
     <ClCompile Include="src\Physics\Link.cpp">
-      <Filter>來源檔案\Physics</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Physics\RectCollider.cpp">
       <Filter>來源檔案\Physics</Filter>
     </ClCompile>
     <ClCompile Include="Example\Demo.cpp">
       <Filter>來源檔案\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\ScreenBoarder.cpp">
+      <Filter>來源檔案\Physics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -137,9 +134,6 @@
     <ClInclude Include="include\Container\LinkedList.hpp">
       <Filter>標頭檔\Container</Filter>
     </ClInclude>
-    <ClInclude Include="include\Physics\QuadTree.hpp">
-      <Filter>標頭檔\Physics</Filter>
-    </ClInclude>
     <ClInclude Include="include\Physics\AABB.hpp">
       <Filter>標頭檔\Physics</Filter>
     </ClInclude>
@@ -170,7 +164,7 @@
     <ClInclude Include="include\Physics\Link.hpp">
       <Filter>標頭檔\Physics</Filter>
     </ClInclude>
-    <ClInclude Include="include\Physics\RectCollider.hpp">
+    <ClInclude Include="include\Physics\ScreenBoarder.hpp">
       <Filter>標頭檔\Physics</Filter>
     </ClInclude>
   </ItemGroup>

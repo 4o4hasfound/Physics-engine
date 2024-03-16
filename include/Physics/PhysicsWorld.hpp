@@ -2,9 +2,9 @@
 #define PULSAR_PHYSICS_WORLD_INCLUDED
 
 #include "setup.hpp"
+#include "Physics/Constraint.hpp"
 #include "Physics/Body.hpp"
 #include "Physics/Collider.hpp"
-#include "Physics/Constraint.hpp"
 #include "Container/FreeList.inl"
 #include "Debug/Print.hpp"
 
@@ -29,6 +29,7 @@ namespace Pulsar {
 		Body* CreateBody(BodyDef* bodyDef);
 
 		void AddConstraint(Constraint* constraint);
+		void AddConstraint(UniversalConstraint* constraint);
 
 		void Step(Decimal dt);
 
@@ -41,7 +42,7 @@ namespace Pulsar {
 		bool m_freezed = false;
 		FreeList<Body*> m_bodies;
 		FreeList<Constraint*> m_constraints;
-		FreeList<Constraint*> m_universalConstraints;
+		FreeList<UniversalConstraint*> m_universalConstraints;
 
 		vec2 m_gravity;
 

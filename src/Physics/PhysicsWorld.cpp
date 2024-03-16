@@ -14,6 +14,10 @@ namespace Pulsar {
 		m_constraints.insert(constraint);
 	}
 
+	void PhysicsWorld::AddConstraint(UniversalConstraint* constraint) {
+		m_universalConstraints.insert(constraint);
+	}
+
 	void PhysicsWorld::Step(Decimal dt) {
 		if (m_freezed) 
 			return;
@@ -26,7 +30,7 @@ namespace Pulsar {
 	void PhysicsWorld::ApplyGravity(Decimal dt) {
 		PULSAR_CONSTEXPR Decimal GravityScale = 100000;
 		for (Body* body : m_bodies) {
-			if (body->getType() != RidigBody) continue;
+			if (body->getType() != RigidBody) continue;
 			body->Accelerate(m_gravity * GravityScale * dt);
 		}
 	}
@@ -34,6 +38,11 @@ namespace Pulsar {
 	void PhysicsWorld::ApplyConstraints(Decimal dt) {
 		for (Constraint* constraint : m_constraints) {
 			constraint->Apply();
+		}
+		for (UniversalConstraint* constraint : m_universalConstraints) {
+			for (Body* body : m_bodies) {
+				constraint->Apply(body);
+			}
 		}
 	}
 

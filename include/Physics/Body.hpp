@@ -20,7 +20,7 @@ namespace Pulsar {
 	enum BodyType {
 		StaticBody = 0,
 		KinematicBody,
-		RidigBody
+		RigidBody
 	};
 
 	struct BodyDef {

@@ -16,7 +16,6 @@ namespace Pulsar {
 		~SphereCollider();
 		virtual CollisionPoint TestCollision(Body* a, Body* b, const Collider* collider) const override;
 		CollisionPoint SphereToSphereCollision(Body* a, Body* b, const Collider* collider) const;
-		CollisionPoint SphereToRectCollision(Body* a, Body* b, const Collider* collider) const;
 		PULSAR_CONSTEXPR Decimal getRadius() { return m_radius; }
 	protected:
 		Decimal m_radius;
