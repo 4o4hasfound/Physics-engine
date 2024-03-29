@@ -3,6 +3,8 @@
 This physics engine uses verlet integration to solve the position of each sphere. By using this method, we can simply move one object, and the verlet integration will automatically solve the dynamics for us!
 ## Showcase
 ![PhysicsSim](https://github.com/4o4hasfound/Physics-engine/assets/138118407/702b725f-cca5-4913-ac85-40789ad5f81e)
+![PhysicsSimConstraint](https://github.com/4o4hasfound/Physics-engine/assets/138118407/82fa9eac-4d21-4eaf-88d0-9367829acc8a)
+
 
 ## Code Example
 ### Basic Usage
